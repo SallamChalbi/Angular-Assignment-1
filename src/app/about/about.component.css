@@ -1,0 +1,19 @@
+.about{
+    background-color: var(--main-color);
+    min-height: calc(100vh - 106px);
+}
+
+p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+div.text-center{
+    color: white;
+}
+
+.line{
+    height: 4px;
+    width: 80px;
+    background-color: white;
+}

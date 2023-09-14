@@ -1,0 +1,32 @@
+.portfolio{
+    min-height: calc(100vh - 106px);
+}
+
+.layer__{
+    background-color: #1abc9ce6;
+    opacity: 0;
+    cursor: pointer;
+    transition: .6s opacity;
+}
+
+.layer__:hover{
+    opacity: 1;
+}
+
+.model__{
+    z-index: 9999;
+}
+
+.model__ img{
+    width: 600px;
+}
+
+div.text-center{
+    color: rgb(44, 62, 80);
+}
+
+.line{
+    height: 4px;
+    width: 80px;
+    background-color: rgb(44, 62, 80);
+}

@@ -1,0 +1,23 @@
+<div class="mb-4 contact">
+    <div class="pt-3 conatiner">
+        <div  class="text-center pt-4" >
+            <h2  class="text-uppercase mb-3 fs-1 fw-bolder">Contact Component</h2>
+            <div  class="d-flex align-items-center justify-content-center mb-3">
+                <div  class="line me-3"></div>
+                <i  class="fa-solid fa-star"></i>
+                <div  class="line ms-3"></div>
+            </div>
+        </div>
+        <form novalidate="" action="" class="w-50 p-3 mx-auto mt-5 ng-untouched ng-pristine ng-valid">
+            <label for="userName" class="position-relative top-0" [ngClass]="inputData1.length == 0 ? '__top':''">userName : </label>
+            <input [(ngModel)]="inputData1" type="text" placeholder="userName" name="userName" class="form-control border-0 border-bottom py-3 position-relative ng-untouched ng-pristine ng-valid">
+            <label for="userAge" class="position-relative top-0" [ngClass]="inputData2.length == 0 ? '__top':''">userAge : </label>
+            <input [(ngModel)]="inputData2" type="text" placeholder="userAge" name="userName" class="form-control border-0 border-bottom py-3 position-relative ng-untouched ng-pristine ng-valid">
+            <label for="userEmail" class="position-relative top-0" [ngClass]="inputData3.length == 0 ? '__top':''">userEmail : </label>
+            <input [(ngModel)]="inputData3" type="text" placeholder="userEmail" name="userName" class="form-control border-0 border-bottom py-3 position-relative ng-untouched ng-pristine ng-valid">
+            <label for="userPassword" class="position-relative top-0" [ngClass]="inputData4.length == 0 ? '__top':''">userPassword : </label>
+            <input [(ngModel)]="inputData4" type="text" placeholder="userPassword" name="userName" class="form-control border-0 border-bottom py-3 position-relative ng-untouched ng-pristine ng-valid">
+            <button type="button" class="btn mt-4 text-white"> send Message </button>
+        </form>
+    </div>
+</div>

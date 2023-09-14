@@ -1,0 +1,19 @@
+.home{
+    background-color: var(--main-color);
+    min-height: calc(100vh - 106px);
+}
+
+img{
+    width: 250px;
+    margin-top: 44px;
+}
+
+div.text-center{
+    color: white;
+}
+
+.line{
+    height: 4px;
+    width: 80px;
+    background-color: white;
+}

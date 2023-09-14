@@ -1,0 +1,35 @@
+.contact{
+    min-height: calc(100vh - 106px);
+}
+
+label{
+    color: var(--main-color);
+    margin-bottom: 7px;
+    transition: .6s top;
+}
+
+button{
+    background-color: #1abc9c;
+}
+
+.__top{
+    top: 40px !important;
+}
+
+.btn:hover{
+    background-color: #1abc9c;
+}
+
+input.form-control:focus{
+    box-shadow: none;
+}
+
+div.text-center{
+    color: rgb(44, 62, 80);
+}
+
+.line{
+    height: 4px;
+    width: 80px;
+    background-color: rgb(44, 62, 80);
+}

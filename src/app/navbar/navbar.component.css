@@ -1,0 +1,9 @@
+nav{
+    background-color: var(--second-color);
+    transition: .6s padding;
+}
+
+.active-link{
+    background-color: var(--main-color);
+}
+
